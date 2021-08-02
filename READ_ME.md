@@ -13,17 +13,18 @@ Write a generic method to find the maximal element in the range [begin, end) of 
 //1 The method for swapping elements in an array does not use generics,<br/>
 //please change the method so it returns an array of the same type as provided. Hint: look at Arrays::copyOf<br/>
 
-//2 Write a method that does the same thing, but for lists.<br/>
+2 Write a method that does the same thing, but for lists.<br/>
+```javascript
+class SwapUtil {
+    public static Object[] swapElements(Object[] array, int firstIndex, int secondIndex) {
+        Object[] copyOfArray = new Object[array.length];
+        System.arraycopy(array, 0, copyOfArray, 0, array.length);
 
-//class SwapUtil {<br/>
-//    public static Object[] swapElements(Object[] array, int firstIndex, int secondIndex) {<br/>
-//        Object[] copyOfArray = new Object[array.length];<br/>
-//        System.arraycopy(array, 0, copyOfArray, 0, array.length);<br/>
-//
-//        copyOfArray[firstIndex] = array[secondIndex];<br/>
-//        copyOfArray[secondIndex] = array[firstIndex];<br/>
-//
-//        return copyOfArray;<br/>
-//    }<br/>
-//}<br/>
+        copyOfArray[firstIndex] = array[secondIndex];
+        copyOfArray[secondIndex] = array[firstIndex];
+
+        return copyOfArray;
+    }
+}
+```
 [ex_03](./ex_04/Solution.java)<br/>
