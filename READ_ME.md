@@ -14,7 +14,7 @@ Write a generic method to find the maximal element in the range [begin, end) of 
 //please change the method so it returns an array of the same type as provided. Hint: look at Arrays::copyOf<br/>
 
 2 Write a method that does the same thing, but for lists.<br/>
-```javascript
+```java
 class SwapUtil {
     public static Object[] swapElements(Object[] array, int firstIndex, int secondIndex) {
         Object[] copyOfArray = new Object[array.length];
