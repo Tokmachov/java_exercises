@@ -4,14 +4,14 @@ These are randome exersices i collect over different sources i do to practiсe g
 Write a generic method to find the maximal element in the range [begin, end) of a list<br/>
 [ex_01](./ex_01/Solution.java)<br/>
 ### ex_02<br/>
-//Generic method: exchange the positions of two different elements in an array.<br/>
+Generic method: exchange the positions of two different elements in an array.<br/>
 [ex_01](./ex_02/Solution.java)<br/>
 ### ex_03<br/>
-//Generic method: count the number of elements in a collection that have a specific property (for example, odd integers, prime numbers, palindromes).<br/>
+Generic method: count the number of elements in a collection that have a specific property (for example, odd integers, prime numbers, palindromes).<br/>
 [ex_03](./ex_03/Solution.java)<br/>
 ### ex_04<br/>
-//1 The method for swapping elements in an array does not use generics,<br/>
-//please change the method so it returns an array of the same type as provided. Hint: look at Arrays::copyOf<br/>
+1 The method for swapping elements in an array does not use generics,<br/>
+please change the method so it returns an array of the same type as provided. Hint: look at Arrays::copyOf<br/>
 
 2 Write a method that does the same thing, but for lists.<br/>
 ```java
