@@ -28,4 +28,8 @@ class SwapUtil {
 }
 ```
 [ex_04](./ex_04/Solution.java)<br/>
- 
+### ex_05 topic: generics<br/>
+In this exercise, your task is to implement copy method (it is present in Collections by the way)<br/>
+that's able to copy the items from a source list into a destination list. Use wildcards with the appropriate bounds!<br/>
+Hint: you have to copy the items from one of the lists into another list (so there are read and write operations accordingly).<br/>
+[ex_05](./ex_05/Solution.java)<br/>
