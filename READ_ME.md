@@ -1,5 +1,5 @@
 ## Java exercises<br/>
-These are randome exersices i collect over different sources i do to practiсe generics in java<br/>
+These are randome exersices i collect over different sources i do to test java language concepts<br/>
 ### ex_01 topic: generics<br/>
 Write a generic method to find the maximal element in the range [begin, end) of a list<br/>
 [ex_01](./ex_01/Solution.java)<br/>
