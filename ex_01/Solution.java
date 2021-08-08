@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.List;
 
 //Write a generic method to find the maximal element in the range [begin, end) of a list
-
+//
 public class Solution {
     public static void main(String[] args) {
         List<Integer> elements = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
