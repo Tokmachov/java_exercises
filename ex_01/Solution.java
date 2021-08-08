@@ -3,7 +3,8 @@ import java.util.List;
 
 //Write a generic method to find the maximal 
 //element in the range [begin, end) of a list
-////////////////////////////
+
+>>>>>>> 32302dc126dce91f24b56ef39ef09adb32adb43f
 public class Solution {
     public static void main(String[] args) {
         List<Integer> elements = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
